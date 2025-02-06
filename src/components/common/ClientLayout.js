@@ -13,7 +13,7 @@ export default function ClientLayout({ children }) {
   return (
     <div className="flex min-h-screen">
       <Sidebar />
-      <div className="flex-1 p-4">
+      <div className="flex-1 p-12">
         <Header />
         <main>{children}</main>
       </div>
