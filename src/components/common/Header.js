@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header className="absolute top-0 left-0 w-full bg-white shadow-md h-16 flex items-center px-6 z-20">
       <div className="flex items-center">
-        <img src="/images/logo.png" alt="Daikin Logo" className="h-8" />
+        <img src="/logo.png" alt="Daikin Logo" className="h-8" />
       </div>
 
       <div className="ml-auto flex items-center space-x-4">
@@ -20,7 +20,7 @@ const Header = () => {
 
         <div className="flex items-center space-x-2">
           <img
-            src="/images/user-profile.png"
+            src="/user-profile.png"
             alt="Profile"
             className="h-10 w-10 rounded-full border"
           />
