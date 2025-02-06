@@ -37,7 +37,7 @@ const Sidebar = () => {
     <aside
       className="min-h-screen pt-16 w-60 text-white flex flex-col font-montserrat"
       style={{
-        backgroundImage: "url(/images/sidebar-bg.png)",
+        backgroundImage: "url(/sidebar-bg.png)",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
